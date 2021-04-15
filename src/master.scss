@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+$verdesfondo: rgb(43, 56, 23);
+$azzurrotitolo: rgb(177, 252, 255);
+$gialloparagrafo: rgb(255, 255, 172);
+$fontsizetitolo: 50px;
+$fontsizeparagrafo: 20px;
+
+body {
+    background: $verdesfondo;
+}
+
+.container {
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    color: $azzurrotitolo;
+    font-size: $fontsizetitolo;
+}
+
+.text {
+    color: $gialloparagrafo;
+    font-size: $fontsizeparagrafo;
+}

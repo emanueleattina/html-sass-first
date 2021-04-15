@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #2b3817;
+}
+
+.container {
+  height: 100vh;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  color: #b1fcff;
+  font-size: 50px;
+}
+
+.text {
+  color: #ffffac;
+  font-size: 20px;
+}
